@@ -10,7 +10,7 @@
 
 if __name__ == '__main__':
 
-    a = tuple(map(float, input("Ввеите список: ").split()))
+    a = tuple(map(float, input("Введите список: ").split()))
 
     print ("Сумма отрицательных элементов: ", sum([i for i in a if i < 0]))
     proiz = 1
